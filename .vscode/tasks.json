@@ -10,6 +10,15 @@
                 "${workspaceFolder}/DatingApp.API/DatingApp.API.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "type": "npm",
+            "script": "start",
+            "path": "DatingApp-SPA/",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
